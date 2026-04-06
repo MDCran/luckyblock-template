@@ -1,0 +1,20 @@
+{
+  "id": "speed_boost",
+  "display_name": "Speed Boost",
+  "luck_category": "GOOD",
+  "target": {
+    "type": "player"
+  },
+  "events": [
+    {
+      "type": "EFFECT",
+      "effect": "SPEED",
+      "duration_ticks": 600,
+      "amplifier": 1
+    },
+    {
+      "type": "MESSAGE",
+      "message": "&a&lSpeed Boost! &7You feel faster for 30 seconds!"
+    }
+  ]
+}

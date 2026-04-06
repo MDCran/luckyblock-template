@@ -1,0 +1,20 @@
+{
+  "id": "diamond_sword_drop",
+  "display_name": "Diamond Sword",
+  "luck_category": "GOOD",
+  "target": {
+    "type": "player"
+  },
+  "events": [
+    {
+      "type": "ITEM",
+      "item": "DIAMOND_SWORD",
+      "amount": 1,
+      "display_name": "&bLucky Diamond Sword",
+      "lore": ["&7Found inside a lucky block!"],
+      "enchants": [
+        { "enchant": "sharpness", "level": 3 }
+      ]
+    }
+  ]
+}

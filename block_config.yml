@@ -1,0 +1,27 @@
+# Lucky Block Configuration
+# Edit this file to customize your lucky block's identity and types.
+
+# Display name shown in-game (supports & color codes and &#RRGGBB hex)
+display_name: "&#FFD700My Lucky Block"
+
+# Version of your lucky block content (semver: MAJOR.MINOR.PATCH)
+version: "1.0.0"
+
+# Your name or team name
+author: "YourName"
+
+# Short description
+description: "A custom lucky block created with the Lucky Block Creator template"
+
+# Block Types - each type is a variant of your lucky block
+# Players break a type to trigger a random drop from that type's drop pool.
+types:
+  lucky:
+    display_name: "Lucky"
+    block_id: example_block
+    held_item:
+      material: SPONGE
+      custom_model_data: 0
+    entity_item:
+      material: SPONGE
+      custom_model_data: 0

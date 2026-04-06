@@ -1,0 +1,9 @@
+{
+  "material": "SPONGE",
+  "display_name": "&6My Lucky Block",
+  "breakable": true,
+  "break_time_ticks": 0,
+  "break_particle": "CRIT",
+  "dig_sound": "BLOCK_STONE_BREAK",
+  "place_sound": "BLOCK_STONE_PLACE"
+}

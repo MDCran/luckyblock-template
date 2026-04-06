@@ -1,0 +1,14 @@
+# Lucky Block Repository Marker
+# DO NOT DELETE - this file identifies this repository as a Lucky Block project.
+# The Lucky Block Creator website and plugin use this file for repo detection.
+
+schema_version: 1
+template_version: "1.0.0"
+min_plugin_version: "1.0.0"
+
+minecraft_versions:
+  - "1.21.1"
+
+# Unique identifier for this lucky block (change this when creating your own!)
+# Must be lowercase, alphanumeric, and underscores only.
+id: "my_lucky_block"

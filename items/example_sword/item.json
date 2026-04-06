@@ -1,0 +1,17 @@
+{
+  "id": "example_sword",
+  "material": "IRON_SWORD",
+  "display_name": "&c&lFlame Sword",
+  "lore": [
+    "&7A fiery blade forged",
+    "&7inside a lucky block.",
+    "",
+    "&eFire Aspect II"
+  ],
+  "enchantments": {
+    "fire_aspect": 2,
+    "sharpness": 4
+  },
+  "item_flags": ["HIDE_ENCHANTS"],
+  "unbreakable": false
+}

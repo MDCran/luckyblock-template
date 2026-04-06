@@ -1,0 +1,16 @@
+# Drop Weights Configuration
+# Controls probability and enabled/disabled status of each drop.
+#
+# Weight math: probability = this_weight / sum_of_all_enabled_weights_in_type
+# Example: weight 200 among total 1000 = 20% chance
+
+lucky:
+  diamond_sword_drop:
+    weight: 100
+    enabled: true
+  welcome_message:
+    weight: 150
+    enabled: true
+  speed_boost:
+    weight: 100
+    enabled: true

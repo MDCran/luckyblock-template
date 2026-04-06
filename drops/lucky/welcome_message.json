@@ -1,0 +1,20 @@
+{
+  "id": "welcome_message",
+  "display_name": "Welcome Message",
+  "luck_category": "NEUTRAL",
+  "target": {
+    "type": "player"
+  },
+  "events": [
+    {
+      "type": "MESSAGE",
+      "message": "&6&lLucky! &eYou found a surprise inside the lucky block!"
+    },
+    {
+      "type": "COMMAND",
+      "command": "playsound minecraft:entity.player.levelup player {player} {block_x} {block_y} {block_z} 1 1",
+      "executor": "console",
+      "delay_ticks": 5
+    }
+  ]
+}
