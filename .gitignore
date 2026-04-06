@@ -21,3 +21,8 @@ target/
 *.tmp
 *.bak
 *.log
+
+# Node
+node_modules/
+package.json
+package-lock.json
